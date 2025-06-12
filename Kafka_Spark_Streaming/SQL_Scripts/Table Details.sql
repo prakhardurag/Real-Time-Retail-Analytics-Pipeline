@@ -13,7 +13,7 @@ CREATE TABLE dim_products (
     price        NUMERIC(10, 2)
 );
 
-CREATE TABLE facts_transaction (
+CREATE TABLE fact_transactions (
     transaction_id VARCHAR(100) PRIMARY KEY,
     product_id INT REFERENCES dim_products(product_id),
     product_name VARCHAR(255),
