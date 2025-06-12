@@ -1,11 +1,11 @@
 
-# 📊 Real-Time Retail Analytics Pipeline
+#  Real-Time Retail Analytics Pipeline
 
-## 🚀 Built by a Data Engineer for streaming, transforming, and visualizing point-of-sale transactions in real-time.
+##  Built by a Data Engineer for streaming, transforming, and visualizing point-of-sale transactions in real-time.
 
 ---
 
-### 🧠 Project Summary
+###  Project Summary
 
 This project demonstrates an end-to-end real-time data pipeline using:
 
@@ -17,7 +17,7 @@ This project demonstrates an end-to-end real-time data pipeline using:
 
 ---
 
-### 📦 Stack
+###  Stack
 
 | Component         | Purpose                                 |
 |------------------|-----------------------------------------|
@@ -31,7 +31,7 @@ This project demonstrates an end-to-end real-time data pipeline using:
 
 ---
 
-### 📁 Directory Structure
+###  Directory Structure
 
 ```
 .
@@ -47,7 +47,7 @@ This project demonstrates an end-to-end real-time data pipeline using:
 
 ---
 
-### 🛠️ Setup Instructions
+###  Setup Instructions
 
 > Ensure Docker & Docker Compose are installed.
 
@@ -62,7 +62,7 @@ docker-compose up --build
 
 ---
 
-### 🔄 Streaming Workflow
+###  Streaming Workflow
 
 1. **Kafka Topic:** `transactions`
 2. **Producer:** A POS simulator sends transaction JSON messages to Kafka.
@@ -76,7 +76,7 @@ docker-compose up --build
 
 ---
 
-### 📊 Metabase Dashboard
+###  Metabase Dashboard
 
 > Access: [http://localhost:3000](http://localhost:3000)
 
@@ -91,7 +91,7 @@ You can build dashboards to show:
 
 ---
 
-### 🔧 Customization
+###  Customization
 
 - Kafka topic configurable via env: `KAFKA_BROKER=kafka:9092`
 - PostgreSQL creds: see `docker-compose.yml`
@@ -99,7 +99,7 @@ You can build dashboards to show:
 
 ---
 
-### 📌 Example SQL: `facts_transaction`
+###  Example SQL: `fact_transactions`
 
 ```sql
 SELECT 
@@ -122,7 +122,7 @@ LIMIT 10;
 
 ---
 
-### 🧪 Sample Kafka Message
+###  Sample Kafka Message
 
 ```json
 {
@@ -138,7 +138,7 @@ LIMIT 10;
 
 ---
 
-### 📌 Future Improvements
+###  Future Improvements
 
 - Schema Registry & Kafka Avro support
 - Delta Lake for immutable fact tables
@@ -147,7 +147,7 @@ LIMIT 10;
 
 ---
 
-### 👨‍💻 Author
+###  Author
 
 **Prakhar Durag**  
 _Data Engineer | Streaming Specialist | Python & AWS Enthusiast_  
