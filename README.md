@@ -151,4 +151,4 @@ LIMIT 10;
 
 **Prakhar Durag**  
 _Data Engineer | Streaming Specialist | Python & AWS Enthusiast_  
-[LinkedIn](https://www.linkedin.com/in/your-profile/) | [GitHub](https://github.com/your-username)
+[LinkedIn](linkedin.com/in/prakhar-durag-ba9743199) | [GitHub](https://github.com/prakhardurag)
